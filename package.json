@@ -1,0 +1,23 @@
+{
+    "name": "202205-w01ch04_marina-jorge",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "sass": "sass -w --no-source-map scss:css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/MarinaNaM/202205-W01CH04_Marina-Jorge.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/MarinaNaM/202205-W01CH04_Marina-Jorge/issues"
+    },
+    "homepage": "https://github.com/MarinaNaM/202205-W01CH04_Marina-Jorge#readme",
+    "devDependencies": {
+        "sass": "^1.51.0"
+    }
+}
