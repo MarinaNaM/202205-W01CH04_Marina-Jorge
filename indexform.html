@@ -8,8 +8,8 @@
         <title>Challenge 04</title>
     </head>
     <body>
-        <header>
-        <h1 class="header__title">Lista de la compra</h1>
+        <header class="header">
+            <h1 class="header__title">Lista de la compra</h1>
             <nav class="navbar">
                 <ul class="navbar__menu">
                     <li class="menu__li">Principal</li>
@@ -19,18 +19,44 @@
             </nav>
         </header>
         <section class="submenu">
-            <button class="submenu__button">-</button>
-            <h2 class="submenu__button">2/3 comprados</h2>
+            <a href="./indexlist.html">
+                <button class="submenu__button">-</button>
+            </a>
+            <p class="submenu__parrafo">2/3 comprados</p>
         </section>
         <section class="formulary">
-            <h3>Editar artículo</h3>
-            <form action="nothing">
-            <label for="name">Nombre:</label>
-            <input type="text" id="name" name="nombre" required/>
-            <label for="precio">Precio:</label>
-            <input type="text" id="precio" name="precio" required />
-            <button>Modificar</button>
+            <div class="formulary__h3">
+                <h3>Editar artículo</h3>
+            </div>
+            <div>
+                <form class="formulary__box" action="nothing">
+                    <label class="formulary__box-name" for="name"
+                        >Nombre:</label
+                    >
+                    <input
+                        class="formulary__box-box1"
+                        type="text"
+                        id="name"
+                        name="nombre"
+                        required
+                    />
+                    <label class="formulary__box-precio" for="precio"
+                        >Precio:</label
+                    >
+                    <div class="formulary__box-euro">
+                        <input
+                            class="formulary__box-box1"
+                            type="text"
+                            id="precio"
+                            name="precio"
+                            required
+                        />
+                        <p class="formulary__box-simboloeuro">€</p>
+                    </div>
 
+                    <button class="formulary__box-buttton">Modificar</button>
+                </form>
+            </div>
         </section>
     </body>
 </html>
