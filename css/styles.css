@@ -1,1 +1,12 @@
+* {
+  font-family: sans-serif;
+}
 
+body {
+  background-color: #ff8d27;
+}
+body .submenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f87500;
+}
