@@ -18,8 +18,9 @@ body {
 }
 
 .submenu__button {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+    border: none;
     border-radius: 50%;
     background-color: black;
     color: #f87500;
@@ -27,10 +28,46 @@ body {
     font-size: 70px;
 }
 
-.submenu__h2 {
-    margin: 15px;
+.submenu__parrafo {
+    margin: 30px 10px 0px 0px;
+    font-size: 20px;
 }
 
 .formulary__h3 {
     margin: 30px 0px 20px 10px;
+}
+
+.formulary__box {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulary__box-box1 {
+    width: 170px;
+    height: 50px;
+    margin: 0px 0px 15px 10px;
+}
+
+.formulary__box-name {
+    margin: 0px 0px 15px 10px;
+}
+
+.formulary__box-buttton {
+    width: 70px;
+    height: 40px;
+    margin: 0px 0px 15px 10px;
+    background-color: #5e81d1;
+    color: white;
+    border: none;
+}
+
+.formulary__box-precio {
+    margin: 0px 0px 15px 10px;
+}
+
+.formulary__box-euro {
+    display: flex;
+}
+.formulary__box-simboloeuro {
+    margin: 16px 0px 0px 5px;
 }
