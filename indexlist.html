@@ -19,30 +19,42 @@
             </nav>
         </header>
         <section class="dropdown">
-            <div class="dropdown__plus">➕</div>
+            <div class="dropdown__plus"><a href="./indexform.html">➕</a></div>
             <p class="dropdown__counter">2/3 comprados</p>
         </section>
         <section class="list">
             <div class="list__words">
-                <input
-                    class="list__item--crossed"
-                    type="checkbox"
-                    value=""
-                />Pan <input class="list__item" type="checkbox" />Azúcar
-                <input class="list__item--crossed" type="checkbox" />Leche
+                <div class="list__words-join">
+                    <input type="checkbox" value="" />
+                    <label class="list__item--crossed" for="">Pan</label>
+                </div>
+                <div class="list__words-join">
+                    <input type="checkbox" /><label for="">Azúcar</label>
+                </div>
+                <div class="list__words-join">
+                    <input class="list__item--crossed" type="checkbox" /><label
+                        class="list__item--crossed"
+                        for=""
+                        >Leche</label
+                    >
+                </div>
             </div>
             <div class="list__prices">
-                <p class="price">0.75€</p>
-                <p class="price">1.20€</p>
+                <div class="list__prices--euros">
+                    <p class="price-first">0.75€</p>
+                    <p class="price-special">-</p>
+                    <p class="price-last">1.20€</p>
+                </div>
+
+                <div class="all-icons">
+                    <div class="icon">❌</div>
+                    <div class="icon">❌</div>
+                    <div class="icon">❌</div>
+                </div>
             </div>
         </section>
         <div class="total">
             <p class="total__price">1.95€</p>
-        </div>
-        <div class="all-icons">
-            <div class="icon">❌</div>
-            <div class="icon">❌</div>
-            <div class="icon">❌</div>
         </div>
     </body>
 </html>
