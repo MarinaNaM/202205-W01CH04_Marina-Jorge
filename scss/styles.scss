@@ -1,3 +1,10 @@
+body {
+    background-color: #ff8d27;
+    .submenu {
+        display: flex;
+        justify-content: space-between;
+        background-color: #f87500;
+    }
 * {
     font-family: sans-serif, monospace;
     box-sizing: border-box;
