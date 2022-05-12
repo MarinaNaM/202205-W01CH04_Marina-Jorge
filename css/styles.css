@@ -1,17 +1,43 @@
-/* Error: expected "}".
- *    ,
- * 17 | }
- *    |  ^
- *    '
- *   scss\styles.scss 17:2  root stylesheet */
+* {
+  font-family: sans-serif, monospace;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
 
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: expected "}".\a    \2577 \a 17 \2502  }\d\a    \2502   ^\a    \2575 \a   scss\\styles.scss 17:2  root stylesheet';
+body {
+  background-color: #ff8d27;
+}
+body .submenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f87500;
+}
+
+header {
+  background-color: #5e81d1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+header .header__title {
+  margin-left: 15px;
+}
+header .navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 200px;
+  margin-right: 15px;
+}
+header .menu__li--bold {
+  font-weight: bold;
+}
+
+.dropdown {
+  background-color: #f87500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
