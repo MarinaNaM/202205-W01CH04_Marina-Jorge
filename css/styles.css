@@ -14,8 +14,93 @@ body .submenu {
   margin: 0;
 }
 
-.header {
+body {
+  background-color: #ff8d27;
+}
+body .submenu {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f87500;
+}
+
+header {
   background-color: #5e81d1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 85px;
+}
+header .header__title {
+  margin-left: 15px;
+}
+header .navbar__menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 200px;
+  margin-right: 15px;
+}
+header .menu__li--bold {
+  font-weight: bold;
+}
+
+.dropdown {
+  background-color: #f87500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.dropdown .dropdown__plus {
+  border-radius: 50%;
+  background-color: black;
+  font-size: 27px;
+  color: #f87500;
+  margin-left: 16px;
+}
+.dropdown .dropdown__counter {
+  margin-right: 16px;
+  font-size: 23px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: white solid 1px;
+}
+.list .list__words-join {
+  display: flex;
+  justify-content: space-between;
+}
+.list .list__words {
+  display: flex;
+  flex-direction: column;
+}
+.list .list__item--crossed {
+  display: flex;
+  flex-direction: row;
+  text-decoration: line-through;
+}
+.list .list__prices {
+  display: flex;
+  justify-content: space-between;
+}
+.list .price-special {
+  color: #ff8d27;
+}
+.list .price-first {
+  margin-top: 7px;
+}
+.list .price-last {
+  margin-top: 10px;
+}
+.list .all-icons {
+  margin: 2px;
+}
+
+.total {
+  display: flex;
+  justify-content: flex-end;
 }
 
 .submenu__button {
